@@ -67,7 +67,7 @@ const Header = () => {
               <ul className=" flex flex-col gap-6">
                 <li className=" cursor-pointer hover:text-primary-0">About</li>
 
-                <Link to="/Api">
+                <Link to="/Poke">
                   <li className=" cursor-pointer hover:text-primary-0">API</li>
                 </Link>
                 <li className=" cursor-pointer hover:text-primary-0">

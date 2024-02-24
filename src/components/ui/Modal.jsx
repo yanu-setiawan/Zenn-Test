@@ -21,9 +21,6 @@ const ModalDetail = ({ link, isOpen, onClose }) => {
     }
   };
 
-  console.log(link);
-  console.log(data.stats);
-
   useEffect(() => {
     if (isOpen) {
       fetch();
@@ -37,7 +34,11 @@ const ModalDetail = ({ link, isOpen, onClose }) => {
         onClick={onClose}
       >
         <div className=" w-full max-w-xl p-4 bg-white rounded-box flex flex-col">
-          {!loading && (
+          {loading ? (
+            <div className=" flex justify-center items-center h-full my-10">
+              <div className="w-14 loading h-full text-teal-500 "></div>
+            </div>
+          ) : (
             <>
               <div>{data.name}</div>
               <div>status :</div>
