@@ -9,3 +9,13 @@
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
+
+.hidden-text-4-line {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+  line-height: 1.35;
+  max-height: 6em;
+}

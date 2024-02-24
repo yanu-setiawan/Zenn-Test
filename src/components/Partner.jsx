@@ -38,9 +38,14 @@ const Partner = () => {
   ];
   return (
     <>
-      <div className=" flex flex-wrap justify-center items-center gap-20 py-20 grayscale">
+      <div className=" flex flex-wrap justify-center gap-7 lg:gap-20 py-20 grayscale opacity-70 px-8">
         {brands.map((item, index) => (
-          <img src={item.imgPath} alt="p" key={index} />
+          <img
+            src={item.imgPath}
+            alt="p"
+            key={index}
+            className=" w-[50px] lg:w-[72px]"
+          />
         ))}
       </div>
     </>

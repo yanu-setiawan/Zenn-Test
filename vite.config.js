@@ -11,6 +11,7 @@ export default defineConfig({
       "@utils": "/src/utils",
       "@assets": "/src/assets",
       "@brands": "/src/assets/brands",
+      "@cars": "/src/assets/cars",
       // dll.
     },
   },
