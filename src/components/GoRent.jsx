@@ -18,7 +18,7 @@ function GoRent() {
       icon: <FiMapPin />,
     },
     {
-      type: "Estimate Time",
+      type: "Estimation",
       point: "Point Location",
       icon: <FiClock />,
     },
